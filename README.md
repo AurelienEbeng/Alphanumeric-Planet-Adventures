@@ -67,3 +67,30 @@
 4. **Level 4:** Order 6 numbers in descending order
 5. **Level 5:** Identify the first and last letter in a set of 6 letters
 6. **Level 6:** Identify the smallest and largest number in a set of 6 numbers
+
+![image](https://github.com/user-attachments/assets/3bfa8908-60e7-4878-b029-5b6a7d2241b2)
+![image](https://github.com/user-attachments/assets/0474f6d4-3538-4ee5-a01d-e30bc19b08ec)
+
+![image](https://github.com/user-attachments/assets/b4a24ed5-cd52-4725-858b-7fab001880fb)
+
+![image](https://github.com/user-attachments/assets/c9665b23-d0cf-4f32-b2d7-aaf85b0a25d1)
+![image](https://github.com/user-attachments/assets/b3e2bfcb-a6fd-4a07-9717-037cf271ad91)
+
+![image](https://github.com/user-attachments/assets/0b944052-be11-4c7f-997d-fa89f0a67b42)
+![image](https://github.com/user-attachments/assets/612e5802-8cd3-4389-923a-7a33a52dc16b)
+
+![image](https://github.com/user-attachments/assets/a0c3d4ea-3415-4d0a-b6b8-6c27f7a83884)
+![image](https://github.com/user-attachments/assets/7832ee9b-879f-4955-ae8a-3c5c18b227d0)
+
+![image](https://github.com/user-attachments/assets/72bdb0ba-cd12-4acc-bcbb-f729d57a444f)
+![image](https://github.com/user-attachments/assets/89ce5c00-0669-4156-a991-d632d0c9e8cb)
+
+![image](https://github.com/user-attachments/assets/51b840cb-655a-4476-9a26-d44be57e3b78)
+![image](https://github.com/user-attachments/assets/924a697c-dfbb-4cf4-9334-c634abb00c1d)
+
+![image](https://github.com/user-attachments/assets/57c4ce17-8886-4108-85d3-03335252cfae)
+![image](https://github.com/user-attachments/assets/6148a83d-6c00-4dbd-acaf-cb52913c7ace)
+
+![image](https://github.com/user-attachments/assets/ab340d76-3b1d-4554-a87f-02c881f091c7)
+
+
