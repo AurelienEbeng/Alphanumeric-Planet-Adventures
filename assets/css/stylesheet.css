@@ -1,0 +1,324 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Lexend+Deca:wght@100..900&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+
+
+    --body-font: "Lexend Deca", sans-serif;
+    --h1-font-size: 2rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .813rem;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body,
+input,
+button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #3b1787;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #3b1787;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.team {
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: right; /* Alinhar à direita */
+}
+
+.navbar__button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.navbar__button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-content {
+    margin-top: -10px; /* Remova a margem superior entre a barra de navegação e o main */
+}
+
+/* Adicione esses estilos ao seu arquivo CSS */
+
+.about-content {
+    padding: 20px;
+    height:120%;
+}
+
+.developer {
+    margin-bottom: 20px;    
+}
+
+.developer h3 {
+    color: #3b1787;
+    margin-bottom: 10px;
+}
+
+.developer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.developer ul li {
+    margin-bottom: 5px;
+}
+
+.footerabout {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #3b1787;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*=============== LOGIN ===============*/
+.login {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.login__bg {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 35px);
+    object-fit: cover;
+    object-position: center;
+}
+
+.GameOver_bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.login__form {
+    position: relative;
+    margin-inline: 1.5rem;
+    background-color: hsla(0, 0%, 100%, .01);
+    border: 2px solid hsla(0, 0%, 100%, .7);
+    padding: 2.5rem 1rem;
+    color: var(--white-color);
+    border-radius: 1rem;
+    backdrop-filter: blur(16px);
+}
+
+h2 {
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 35px;
+    margin-left: 45px;
+}
+
+.login__title {
+    text-align: center;
+    font-size: var(--h1-font-size);
+    margin-bottom: 1.25rem;
+}
+
+.login__inputs,
+.login__box {
+    display: grid;
+}
+
+.login__inputs {
+    row-gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.login__box {
+    grid-template-columns: 1fr max-content;
+    column-gap: .75rem;
+    align-items: center;
+    border: 2px solid hsla(0, 0%, 100%, .7);
+    padding-inline: 1.25rem;
+    border-radius: 2rem;
+}
+
+.login__input,
+.login__button,
+.quit__button {
+    border: none;
+    outline: none;
+}
+
+.login__input {
+    width: 100%;
+    background: none;
+    color: var(--white-color);
+    padding-block: 1rem;
+}
+
+.login__input::placeholder {
+    color: var(--white-color);
+}
+
+.login__box i {
+    font-size: 1.25rem;
+}
+
+.login__check,
+.login__check-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__check {
+    margin-bottom: 1rem;
+    font-size: var(--small-font-size);
+}
+
+.login__check-box {
+    column-gap: .5rem;
+}
+
+.login__check-input {
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--white-color);
+}
+
+.login__forgot {
+    color: var(--white-color);
+}
+
+.login__forgot:hover {
+    text-decoration: underline;
+}
+
+.login__button {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--white-color);
+    border-radius: 4rem;
+    color: var(--black-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login__register {
+    font-size: var(--small-font-size);
+    text-align: center;
+}
+
+.login__register a {
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.login__register a:hover {
+    text-decoration: underline;
+}
+
+/* Center the PHP code box */
+.php-code-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* Adjust height as needed */
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .login {
+        justify-content: center;
+    }
+
+    .login__form {
+        width: 420px;
+        padding-inline: 2.5rem;
+    }
+
+    .login__title {
+        margin-bottom: 2rem;
+    }
+}
